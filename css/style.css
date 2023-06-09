@@ -43,7 +43,7 @@
 nav{
     width: 100%;
     position: fixed;
-    background-color: rgb(21, 74, 74);
+    background-color: rgb(241, 230, 167);
     box-shadow: 5px 5px 30px rgba(0, 0, 0, 15%);
     display: flex;
     align-items: center;
@@ -64,11 +64,12 @@ nav ul li{
 
 .navbar{
     display: flex;
-    margin-right: 4vh;
+padding-right: 5ch;
+padding-left: 10ch;
 }
 
 .navbar a{
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 18px;
     padding: 10px 22px;
     border-radius: 4px;
@@ -119,7 +120,7 @@ nav ul li a{
     margin-top:5vh;
     font-size: 25px;
     padding: 10px 30px;
-    color: rgb(21, 74, 74);
+    color: rgb(0, 0, 0);
     /* background-color:rgb(164, 44, 44); */
     background-color: white;
     border-radius: 20px;
@@ -129,10 +130,10 @@ nav ul li a{
 
 .button:hover{
     transform: scale(1.1);
-    color: white;
-    background-color: rgb(21, 74, 74);
+    color: rgb(0, 0, 0);
+    background-color: rgb(241, 230, 167);
     /* border: 2px solid rgb(42, 37, 68); */
-    box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.4);
+    box-shadow: 5px 10px 30px rgb(0, 0, 0);
     padding: 10px 30px;
 }
 
@@ -355,7 +356,7 @@ nav ul li a{
     border: 2px solid transparent;
     border-radius: 20px;
     color: white;
-    background-color: rgb(21, 74, 74);
+    background-color: rgb(241, 230, 167);
     padding: 14px 30px;
     cursor: pointer;
     font-size: 17px;
@@ -366,9 +367,9 @@ nav ul li a{
 }
 
 .newsletter form input:last-child:hover{
-    border: 2px solid rgb(21, 74, 74);
+    border: 2px solid rgb(241, 230, 167);
     background-color: white;
-    color: rgb(21, 74, 74);
+    color: rgb(241, 230, 167);
 }
 
 
@@ -376,7 +377,7 @@ nav ul li a{
 
 .footer{
     margin-top: 80px;
-    background-color: rgb(21, 74, 74);
+    background-color: rgb(241, 230, 167);
 }
 
 .foot{
@@ -394,7 +395,7 @@ nav ul li a{
     margin-top: 30px;
     font-size: 20px;
     font-weight: 600;
-    color: white;
+    color: rgb(0, 0, 0);
     margin-bottom: 30px;
     position: relative;
 }
@@ -407,7 +408,7 @@ nav ul li a{
     width: 70px;
     left: 0;
     bottom: -7px;
-    background: white;
+    background: rgb(0, 0, 0);
 }
 
 .footlinks ul li{
@@ -416,7 +417,7 @@ nav ul li a{
 
 .footlinks ul li a{
     font-size: 17px;
-    color: #dddddd;
+    color: #000000;
     display: block;
     transition: ease 0.30s;
 }
@@ -431,8 +432,8 @@ nav ul li a{
     margin: 4px;
     height: 40px;
     width: 40px;
-    color: rgb(21, 74, 74);
-    background-color: white;
+    color: rgb(241, 230, 167);
+    background-color: rgb(0, 0, 0);
     display: inline-flex;
     justify-content: center;
     align-items: center;
@@ -452,7 +453,7 @@ nav ul li a{
 
 .end p{
     font-size: 15px;
-    color: white;
+    color: rgb(0, 0, 0);
     letter-spacing: 1px;
     font-weight: 300;
 }
